@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CleanArchitectureDemo
+namespace CleanArchitectureDemo.UseCases
 {
-    public class Class1
+    public class GetListProducts
     {
-        //prueba
+
     }
 }
