@@ -8,5 +8,6 @@ namespace CleanArchitectureDemo
 {
     public class Class1
     {
+        //prueba
     }
 }
