@@ -3,7 +3,7 @@ Implementing Clean Architecture on a .NET demo project
 
 ## Use Cases
 
-1. Get a product list
+### Get a product list
 
 Data:
 - ProductId
@@ -14,7 +14,7 @@ Flow:
 - User request command to see product list
 - System returns data to the user
 
-2. Get a product details when select from the previous list
+### Get a product details when select from the previous list
 
 Data:
 - ProductId
