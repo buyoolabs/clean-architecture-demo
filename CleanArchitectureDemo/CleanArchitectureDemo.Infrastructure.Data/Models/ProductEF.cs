@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CleanArchitectureDemo.Infrastructure.Data
 {
-    public class Class1
+    public class ProductEF
     {
     }
 }
