@@ -22,5 +22,12 @@ namespace CleanArchitectureDemo.Domain.Entities
         public decimal Price { get; private set; }
         public int Stock { get; private set; }
         public string Brand { get; private set; }
+        public bool IsActive { get; private set; }
+
+        public void Deactivate()
+        {
+            IsActive = false;
+            Stock = 0;
+        }
     }
 }

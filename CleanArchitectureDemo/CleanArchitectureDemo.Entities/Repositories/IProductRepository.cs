@@ -12,6 +12,6 @@ namespace CleanArchitectureDemo.Domain.Repositories
     {
         List<Product> Get();
 
-        Product GetById();
+        Product GetById(int productId);
     }
 }

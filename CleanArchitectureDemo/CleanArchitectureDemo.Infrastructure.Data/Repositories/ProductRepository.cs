@@ -20,7 +20,7 @@ namespace CleanArchitectureDemo.Infrastructure.Data
             throw new NotImplementedException();
         }
 
-        public Product GetById()
+        public Product GetById(int productId)
         {
             throw new NotImplementedException();
         }

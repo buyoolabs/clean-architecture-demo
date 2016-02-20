@@ -40,13 +40,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\CartItem.cs" />
+    <Compile Include="Entities\Cart.cs" />
     <Compile Include="Entities\Product.cs" />
+    <Compile Include="Gateways\INotificationSender.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\IProductRepository.cs" />
+    <Compile Include="UseCases\DeactivateProduct\DeactivateProductInteractor.cs" />
     <Compile Include="UseCases\GetListProducts\GetListProductsInteractor.cs" />
     <Compile Include="UseCases\GetListProducts\GetListProductsResponse.cs" />
     <Compile Include="UseCases\GetProductDetails.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
